@@ -1,0 +1,7 @@
+scapy
+pandas
+scikit-learn
+streamlit
+numpy
+
+#pip install -r requirements.txt for installing the packets

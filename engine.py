@@ -14,7 +14,7 @@ def extract_features(packet):
 
 
 
-def start_sniffing(packet_count = 10):
+def start_sniffing(packet_count = 200):
     print(f'Starting sniffing for {packet_count} packets.')
     packets = sniff(count=packet_count)
     feature_list = []

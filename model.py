@@ -10,3 +10,4 @@ def train_model(training_data):
 def predict_model(training_data):
     prediction = model.predict(training_data[['size' , 'protocol']])
     return prediction[0]
+
